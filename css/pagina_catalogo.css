@@ -4,7 +4,7 @@ body{
     font-family: Arial, sans-serif;
 }
 header{
-    display: flex;
+    grid-area: header;
     justify-content: space-between;
     align-items: center;
     width: 1024px;
@@ -29,6 +29,7 @@ header a{
 
 main {
   padding: 20px;
+  grid-area: main;
 }
 
 main a{
@@ -38,6 +39,7 @@ main a{
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 8px;
+  display: flex;
 }
 
 h1 {
@@ -91,4 +93,9 @@ article p {
 }
 article strong {
   color: #d32f2f; 
+}
+
+footer{
+  grid-area: footer;
+  
 }
